@@ -26,9 +26,9 @@ console.log(storage)
 
 function edithandle(index){
     let newvalue=prompt('enter new todo')
-    if(newvalue.length>0){
+    if(newvalue.length>0)
     storage.splice(index,1,newvalue)
-    showTodo()}
+    showTodo()
 }
 function deletehandle(index){
     storage.splice(index,1)
