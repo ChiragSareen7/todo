@@ -34,6 +34,3 @@ function deletehandle(index){
     storage.splice(index,1)
     showTodo()
 }
-
-// let name=chirag
-// console.log("my name"${name})
