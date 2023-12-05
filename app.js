@@ -35,5 +35,5 @@ function deletehandle(index){
     showTodo()
 }
 
-let name=chirag
-console.log("my name"${name})
+// let name=chirag
+// console.log("my name"${name})
