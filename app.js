@@ -14,11 +14,11 @@ function showTodo(){
     todolist.innerHTML=''
     storage.forEach(function(todo,index){
     todolist.innerHTML +=
-    "<li>"
+    `<li>
         +todo+
-        "<a onclick='edithandle("${index}")'>edittodo</a>"+
-        "<a onclick='deletehandle("${index}")'>deletetodo</a>"+
-    "</li>"
+        <a onclick=edithandle(${index})>EditTodo</a>+
+        <a onclick=deletehandle(${index})>deletetodo</a>+
+    </li>`
     })
     
 }
