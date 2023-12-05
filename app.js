@@ -17,8 +17,8 @@ function showTodo(){
     todolist.innerHTML +=
     `<li>
         ${todo}
-        <a onclick=edithandle(${index})>EditTodo</a>+
-        <a onclick=deletehandle(${index})>deletetodo</a>+
+        <a onclick=edithandle(${index})>EditTodo</a> | 
+        <a onclick=deletehandle(${index})>deletetodo</a>
     </li>`
     })
     
