@@ -10,6 +10,7 @@ function click(){
     input.value="";
     showTodo()
 }
+
 function showTodo(){
     todolist.innerHTML=''
     storage.forEach(function(todo,index){
